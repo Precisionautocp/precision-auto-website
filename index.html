@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Auto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Precision Auto</h1>
+        <nav>
+            <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#ads">Specials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="photos/photo1.jpg" alt="Workshop Image 1">
+            <img src="photos/photo2.jpg" alt="Workshop Image 2">
+            <img src="photos/photo3.jpg" alt="Workshop Image 3">
+        </div>
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="reviews">
+            <p><strong>John D:</strong> Great service! Highly recommended.</p>
+            <p><strong>Mary S:</strong> Quick turnaround and friendly staff.</p>
+        </div>
+        <div class="review-form">
+            <h3>Leave a Review</h3>
+            <form action="mailto:info@precisionauto.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="review">Review:</label><br>
+                <textarea id="review" name="review" rows="4" required></textarea><br><br>
+                <button type="submit">Submit Review</button>
+            </form>
+            <p><em>*Note: Reviews are emailed and added manually.</em></p>
+        </div>
+    </section>
+
+    <section id="ads">
+        <h2>Special Offers & Ads</h2>
+        <div class="ads">
+            <div class="ad-item">
+                <h3>Brake Service Special!</h3>
+                <p>Get 20% off brake services this month!</p>
+                <a class="whatsapp-button" href="https://wa.me/27810635332" target="_blank">Chat on WhatsApp</a>
+                <a class="facebook-button" href="https://www.facebook.com/YourPageName" target="_blank">Visit us on Facebook</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@precisionauto.com">info@precisionauto.com</a></p>
+        <p>Phone: 081-063-5332</p>
+        <p>Location: Bloemfontein, South Africa</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Precision Auto. All rights reserved.</p>
+    </footer>
+</body>
+</html>
